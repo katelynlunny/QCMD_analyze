@@ -68,7 +68,7 @@ hold on
 title('Frequency Against Time with Overlay of Time Stamps for Steps')
 xlabel('Time(s)')
 
-
+%% USER INPUT
 baseline=1:125;% ranges corrpeond to row numbers
 ECM=418:447;
 precursor=607:647;
@@ -77,6 +77,7 @@ BSA=995:1019;
 BSAwash=1152:1189;
 dSF=1484:1546;
 dSFwash=1679:1727;
+%% 
 % baseline=1:64; 
 % ECM=490:520;
 % precursor=672:712;
